@@ -1,0 +1,41 @@
+header {
+    margin: 30;
+    font-size: xx-large;
+}
+
+body {
+    background-color:aqua;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+}
+  
+  li {
+    float: left;
+}
+  
+  li a {
+    display: block;
+    padding: 8px;
+}
+
+section.update {
+    color: red;
+}
+
+address {
+    color: fuchsia;
+}
+
+ul li {
+    display: grid;
+}
+
+label {
+    font-style: italic;
+}
