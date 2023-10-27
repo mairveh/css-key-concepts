@@ -1,42 +1,55 @@
 header {
-    margin: 30;
-    font-size: xx-large;
+  margin: 30;
+  font-size: xx-large;
 }
 
 body {
-    background-color:aqua;
-    max-width: 75%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: azure;
+  max-width: 75%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 ul {
-    list-style-type: none;
-    margin: 10;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  overflow: hidden;
 }
-  
-  li {
-    float: left;
+
+li {
+  float: left;
 }
-  
-  li a {
-    display: block;
-    padding: 8px;
+
+li a {
+  display: block;
+  padding: 8px;
 }
 
 section.update {
-    color: red;
+  border-color: red;
+  border-width: thin;
+  border-style: solid;
+  padding: 10px;
+}
+
+section.search {
+    padding: 10px;    
 }
 
 address {
-    color: fuchsia;
+  font-style: italic;
 }
 
 ul li {
-    display: grid;
+  display: grid;
 }
 
 label {
-    font-style: italic;
+  font-style: italic;
+}
+
+form {
+    margin: 4px 2px;
+    border: none
 }
