@@ -1,10 +1,15 @@
+:root {
+    --background: azure;
+    --border: red;
+  }
+
 header {
   margin: 30;
   font-size: xx-large;
 }
 
 body {
-  background-color: azure;
+  background-color: var(--background);
   max-width: 75%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -27,7 +32,7 @@ li a {
 }
 
 section.update {
-  border-color: red;
+  border-color: var(--border);
   border-width: thin;
   border-style: solid;
   padding: 10px;
